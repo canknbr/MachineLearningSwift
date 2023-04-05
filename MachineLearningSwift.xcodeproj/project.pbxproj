@@ -13,6 +13,7 @@
 		36DBBE1F29DD777000FC237D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36DBBE1D29DD777000FC237D /* Main.storyboard */; };
 		36DBBE2129DD777200FC237D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36DBBE2029DD777200FC237D /* Assets.xcassets */; };
 		36DBBE2429DD777200FC237D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36DBBE2229DD777200FC237D /* LaunchScreen.storyboard */; };
+		36DBBE3229DD815200FC237D /* MobileNetV2.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = 36DBBE3129DD815100FC237D /* MobileNetV2.mlkitmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		36DBBE2029DD777200FC237D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36DBBE2329DD777200FC237D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36DBBE2529DD777200FC237D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36DBBE3129DD815100FC237D /* MobileNetV2.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlkitmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				36DBBE1729DD777000FC237D /* AppDelegate.swift */,
 				36DBBE1929DD777000FC237D /* SceneDelegate.swift */,
+				36DBBE3129DD815100FC237D /* MobileNetV2.mlkitmodel */,
 				36DBBE1B29DD777000FC237D /* ViewController.swift */,
 				36DBBE1D29DD777000FC237D /* Main.storyboard */,
 				36DBBE2029DD777200FC237D /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36DBBE1C29DD777000FC237D /* ViewController.swift in Sources */,
+				36DBBE3229DD815200FC237D /* MobileNetV2.mlkitmodel in Sources */,
 				36DBBE1829DD777000FC237D /* AppDelegate.swift in Sources */,
 				36DBBE1A29DD777000FC237D /* SceneDelegate.swift in Sources */,
 			);
